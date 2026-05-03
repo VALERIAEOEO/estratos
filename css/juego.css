@@ -1,0 +1,40 @@
+body{
+    background-image: url('/img/mcrft/ang_human_1a.png');
+}
+
+h1 {
+    font-family: 'Jokerman', cursive;
+    font-size:100px;
+    color: goldenrod;
+    position:fixed;
+    top: -50px;
+    text-align: center;
+    left:35px;
+    
+}
+
+  .parent {  
+    background-color: gray;  
+    height: 400px;  
+    width: 400px;  
+   }  
+  
+  .child {  
+    background-color: gold;  
+    height: 50%;  
+    width: 50%;  
+    border-radius: 50%;  
+   }  
+  
+  .parent:hover .child {  
+    animation-name: the-best-animation;  
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;  
+   }  
+  
+  @keyframes the-best-animation {  
+    100% {  
+      transform: translateX(100%);  
+      background-color: aquamarine;  
+    }  
+  }  
