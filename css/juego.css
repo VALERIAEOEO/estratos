@@ -45,6 +45,15 @@ h1 {
     background-color: white;
     opacity: 0;
 }
+.roadBoxTop {
+    position: absolute;
+    top: 200px;
+    left: 640px;
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    opacity: 0;
+}
 
 .coli_1
  {
@@ -62,12 +71,18 @@ h1 {
   z-index: 1;
  }
 
- .inca_1
+ .tort_1
  {
   position: absolute;
-  top:10px;
-  left:20px;
-  z-index: 1;
+  top:480px;
+  left:720px;
+ }
+
+ .tort_2
+ {
+  position: absolute;
+  top:250px;
+  left:450px;
  }
 
  .pinzon_1
@@ -78,10 +93,40 @@ h1 {
   z-index: 1;
  }
 
- .peri_1
+ .peri_human_mid
+{
+  position: absolute;
+  top:450px;
+  left:60px;
+}
+ .peri_tort
 {
     position: absolute;
-  top:450px;
-  left:30px;
-  z-index: 1;
+  top:320px;
+  left:270px;
+
+}
+
+ .bee_1
+{
+    position: absolute;
+  top:530px;
+  left: 660px;
+
+}
+
+.bee_4
+{
+    position: absolute;
+  top:320px;
+  left:270px;
+
+}
+
+.bee_coliview
+{
+    position: absolute;
+  top:500px;
+  left:600px;
+
 }
