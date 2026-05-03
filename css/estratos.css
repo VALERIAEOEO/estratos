@@ -6,11 +6,11 @@
 }
 
 body {
-    min-height: 800px;
+    min-height: 240px;
     /* Light blue background */
     background-color: #87CEEB;
     background: linear-gradient(135deg, #87CEEB 0%, #B0E0E6 50%, #87CEEB 100%);
-    overflow: hidden;
+    overflow: infinite;
     cursor: none; /* Hide default cursor */
 }
 
@@ -79,6 +79,15 @@ body {
     text-transform: uppercase;
 }
 
+h1 {
+
+    position:fixed;
+    top: -50px;
+    text-align: center;
+    left:35px;
+    
+}
+
 /* Responsive adjustments */
 @media (max-width: 500px) {
     .feathered-circle {
@@ -94,4 +103,10 @@ body {
     .subtitle {
         font-size: 0.8rem;
     }
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
 }
