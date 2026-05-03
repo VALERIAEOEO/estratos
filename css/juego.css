@@ -42,3 +42,11 @@ h1 {
     background-color: white;
     opacity: 0;
 }
+
+.exit
+ {
+  position: absolute;
+  top:-50px;
+  left:20px;
+  z-index: 1;
+ }
