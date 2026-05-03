@@ -8,8 +8,8 @@
 body {
     min-height: 240px;
     /* Light blue background */
-    background-color: #87CEEB;
-    background: linear-gradient(135deg, #87CEEB 0%, #B0E0E6 50%, #87CEEB 100%);
+    background-image: url('/img/bg/bg_1.png');
+    background-size: cover;
     overflow: infinite;
     cursor: none; /* Hide default cursor */
 }
@@ -119,7 +119,7 @@ h2 {
   height: 300px;
   background-color: transparent;
   text-align: center;
-  z-index: 1;
+  z-index: 2;
 
 }
 
@@ -133,10 +133,10 @@ h2 {
   text-align: center;
 }
 
-.myDiv3 {
+.juego_home {
   position: absolute;
-  top:200px;
-  left:200px;
+  top:500px;
+  left:100px;
   z-index: 1;
 
 }
