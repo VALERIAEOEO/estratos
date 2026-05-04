@@ -11,10 +11,7 @@ h1 {
     font-size:150px;
     color: goldenrod;
     position:fixed;
-    top: 100px;
     text-align: center;
-    left:700px;
-    
 }
 
 h2 {
@@ -157,7 +154,7 @@ h2 {
 {
     position: absolute;
   top:530px;
-  left: 660px;
+  left: 630px;
 
 }
 
@@ -207,4 +204,100 @@ h2 {
   top:45%;
   left:1120px;
 
+}
+
+/* Popup container */
+.popup {
+  color: #fff;
+  position: relative;
+  font-family: 'Jokerman', cursive;
+  font-size:30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #1358da;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+.popup_info {
+  color: #fff;
+  position: relative;
+  font-family: 'Times New Roman';
+  font: size 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup_info .popuptext_info {
+  visibility: hidden;
+  width: 160px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 1px;
+  padding: 15px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup_info .popuptext_info::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup_info .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }

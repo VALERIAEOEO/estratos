@@ -19,7 +19,7 @@
 </div>
 
 <div class="bee_coliview">
-    <a href="beeview.html"><img src="/img/rsrc/bee_1.png" alt="Ve cómo abeja" style="width: auto; height: 100px;"></a>
+    <a href="beeview.html"><img src="/img/rsrc/bee_1.png" alt="Ve cómo abeja" style="width: auto; height: 80px;"></a>
 </div>
 
    <style>
@@ -28,6 +28,20 @@ body {
 }
 body, a, a:hover{ cursor:url('img/rsrc/cursors/foot.cur'), auto }
 </style>
+
+<div class="popup_info" onclick="myFunctionInfo()" style="top: 40px; left: 1200px;">i
+  <span class="popuptext_info" id="myPopupInfo"><h1 style="top: 100px; left: 100px;">Colibrí</h1> <h2 style="top: 350px; left: 100px;">Saucerottia beryllina</h2>
+Se distribuye desde el noroeste de México, raramente en el extremo suroeste de Estados Unidos, 
+hacia el sur por la vertiente del Pacífico y tierras altas interiores, por Guatemala, El Salvador, 
+hasta el centro de Honduras.</span>
+</div>
+
+<script>
+function myFunctionInfo() {
+  var popup = document.getElementById("myPopupInfo");
+  popup.classList.toggle("show");
+}
+</script>
 </body>
 
 
