@@ -261,16 +261,16 @@ h2 {
 /* The actual popup (appears on top) */
 .popup_info .popuptext_info {
   visibility: hidden;
-  width: 160px;
-  background-color: #ffffff;
-  color: #000000;
-  text-align: center;
+  width: 300px;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: left;
   border-radius: 1px;
   padding: 15px 0;
   position: absolute;
   z-index: 1;
-  top: 50%;
-  left: 50%;
+  top: 100px;
+  left: -350px;
   margin-left: -80px;
 }
 
