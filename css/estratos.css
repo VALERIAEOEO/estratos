@@ -11,7 +11,6 @@ body {
     background-image: url('/img/bg/bg_1.png');
     background-size: cover;
     overflow: infinite;
-    cursor: none; /* Hide default cursor */
 }
 
 .container {
