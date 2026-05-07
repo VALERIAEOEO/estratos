@@ -1,0 +1,302 @@
+body{
+  width: 100%;
+  height: 100%;  
+  overflow: hidden;
+  cursor: url('../img/rsrc/cursors/blue.cur'), auto;
+}
+
+
+h1 {
+    font-family: 'Jokerman', cursive;
+    font-size:150px;
+    color: goldenrod;
+    position:fixed;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Jokerman', cursive;
+    font-size:50px;
+    color: rgb(255, 255, 255);
+    position:fixed;
+    text-align: center;
+    z-index: 1;
+    
+}
+ 
+ .parent {  
+    background-color: transparent;  
+    height: 1000px;  
+    width: 50%;  
+   }  
+  
+  .child {  
+    background-color: transparent;  
+    height: 100px;  
+    width: 100px;  
+    border-radius: 20%;  
+    transition-duration: 1s;  
+    transition-property: transform;  
+   }  
+  
+  .parent:hover .child {  
+    transform: translateX(-600%);  
+    background-color: transparent;   
+   }  
+
+.roadBox {
+    position: absolute;
+    top: 500px;
+    left: 640px;
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    opacity: 0;
+}
+.roadBoxTop {
+    position: absolute;
+    top: 200px;
+    left: 640px;
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    opacity: 0;
+}
+
+.exit {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+}
+
+.coli_1
+ {
+  position: absolute;
+  top:10px;
+  left:600px;
+  z-index: 1;
+ }
+
+ .gorr_1
+ {
+  position: absolute;
+  top:10px;
+  left:20px;
+  z-index: 1;
+ }
+
+ .tort_1
+ {
+  position: absolute;
+  top:480px;
+  left:720px;
+ }
+
+ .tort_2
+ {
+  position: absolute;
+  top:250px;
+  left:450px;
+ }
+
+ .tort_pinz
+ {
+  position: absolute;
+  top:450px;
+  left:800px;
+ }
+
+ .gorr_pinz
+ {
+  position: absolute;
+  top:20px;
+  left:800px;
+ }
+
+ .gorr_3
+ {
+  position: absolute;
+  top:20px;
+  left:550px;
+ }
+
+ .pinz_gorr
+ {
+  position: absolute;
+  top:300px;
+  left:600px;
+  z-index: 1;
+ }
+
+ .peri_human_mid
+{
+  position: absolute;
+  top:450px;
+  left:60px;
+}
+ .peri_tort
+{
+    position: absolute;
+  top:320px;
+  left:270px;
+
+}
+
+.pinz_tort
+{  position: absolute;
+  top:50px;
+  left:900px;
+}
+
+
+ .bee_1
+{
+    position: absolute;
+  top:530px;
+  left: 630px;
+
+}
+
+.bee_4
+{
+    position: absolute;
+  top:320px;
+  left:270px;
+
+}
+
+.bee_coliview
+{
+    position: absolute;
+  top:500px;
+  left:600px;
+
+}
+
+.arrow_up
+{
+  position: absolute;
+  top:50px;
+  left:45%;
+
+}
+
+.arrow_down
+{
+  position: absolute;
+  top:400px;
+  left:45%;
+
+}
+
+.arrow_left
+{
+  position: absolute;
+  top:45%;
+  left:50px;
+
+}
+
+.arrow_right
+{
+  position: absolute;
+  top:45%;
+  left:1120px;
+
+}
+
+/* Popup container */
+.popup {
+  color: #fff;
+  position: relative;
+  font-family: 'Jokerman', cursive;
+  font-size:30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #1358da;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+.popup_info {
+  color: #fff;
+  position: relative;
+  font-family: 'Times New Roman';
+  font: size 20px;
+  display: inline-block;
+}
+
+/* The actual popup (appears on top) */
+.popup_info .popuptext_info {
+  visibility: hidden;
+  width: 300px;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 1px;
+  padding: 15px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: -350px;
+  margin-left: -80px;
+}
+
+.popup_info .popuptext_info::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup_info .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
