@@ -12,6 +12,9 @@ h1 {
     color: goldenrod;
     position:fixed;
     text-align: center;
+    line-height: -200px;
+    text-decoration: none;
+    display: block;
 }
 
 h2 {
@@ -23,6 +26,15 @@ h2 {
     z-index: 1;
     
 }
+a {
+    color: blue; /* Change the color of the hyperlink */
+}
+
+a:hover {
+    color: rgb(255, 217, 0); /* Change the color when the user hovers over it */
+}
+
+
  
  .parent {  
     background-color: transparent;  

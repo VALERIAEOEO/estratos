@@ -29,17 +29,21 @@ body {
 body, a, a:hover{ cursor:url('img/rsrc/cursors/foot.cur'), auto }
 </style>
 
-<div class="popup_info" onclick="myFunctionInfo()" style="top: 40px; left: 1200px;">i
-  <span class="popuptext_info" id="myPopupInfo">
+ <div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()">Info</button>
+    <span class="popuptext_info" id="myPopupInfo">
+      <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>
 
-    <h1 style="top: 100px; left: 100px;">Periquito <br>
+    <h1 style="font-size: 130px; top: 1px; left: 100px;">Periquito<br>
     de nanche</h1> 
     <h2 style="top: 350px; left: 100px;">Membracis mexicana</h2>
-Es fácil de identificar debido a su llamativo color amarillo y es muy común verlo durante la primavera, esta es una especie endémica de México. Los adultos son solitarios, pero las ninfas forman agrupaciones que succionan la savia de las plantas y eliminan los azucares por el abdomen. Se observaron muchos sobre el tronco y las hojas de un Roble Australiano.
+Es fácil de identificar debido a su llamativo color amarillo y es muy común verlo durante la primavera, esta es una especie endémica de México. Los adultos son solitarios, pero las ninfas forman agrupaciones que succionan la savia de las plantas y eliminan los azucares por el abdomen. Se observaron muchos sobre el tronco y las hojas <br>
+de un Roble Australiano.
 <br>
 <br>
-Se observáron varios en Miguel Ángel de Quevedo, sobre las hojas y el tronco de un roble australiano.
-<img src="/img/rsrc/peri_1.png" alt="Fotografía de un periquito de nanche" style="width: auto; height: 700px; top: 100px; left: -75px; position:absolute;"></img>
+Se observáron varios en Miguel Ángel de Quevedo, sobre las hojas y el tronco <br>
+de un roble australiano.
+<img src="/img/rsrc/peri_1.png" alt="Fotografía de un periquito de nanche" style="width: auto; height: 500px; top: 30%; left: 55%; position:absolute;"></img>
 </span>
 </div>
 <script>
@@ -48,7 +52,7 @@ function myFunctionInfo() {
   popup.classList.toggle("show");
 }
 </script>
-
+<script src="./js/popup.js"></script>
 </body>
 
 
