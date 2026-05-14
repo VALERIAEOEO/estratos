@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Estratos";
+    src: url(../font/ESTRATOSFONT.woff2) format('woff2');
+}
+
 body{
   width: 100%;
   height: 100%;  
@@ -7,7 +12,8 @@ body{
 
 
 h1 {
-    font-family: 'Jokerman', cursive;
+    font-family: 'Estratos', sans-serif;
+    font-weight: 100;
     font-size:150px;
     color: goldenrod;
     position:fixed;
@@ -18,7 +24,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Jokerman', cursive;
+    font-family: 'Estratos', sans-serif;
+    font-weight: 100;
     font-size:50px;
     color: rgb(255, 255, 255);
     position:fixed;
