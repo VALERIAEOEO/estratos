@@ -65,12 +65,12 @@ a:hover {
 
 .roadBox {
     position: absolute;
-    top: 500px;
+    top: 400px;
     left: 640px;
     width: 100px;
-    height: 120px;
+    height: 200px;
     background-color: white;
-    opacity: 0;
+    opacity: 100;
 }
 .roadBoxTop {
     position: absolute;
@@ -92,7 +92,7 @@ a:hover {
 .coli_1
  {
   position: absolute;
-  top:10px;
+  top:150px;
   left:600px;
   z-index: 1;
  }
@@ -115,7 +115,7 @@ a:hover {
  .tort_2
  {
   position: absolute;
-  top:250px;
+  top:450px;
   left:450px;
  }
 
@@ -151,8 +151,8 @@ a:hover {
  .peri_human_mid
 {
   position: absolute;
-  top:450px;
-  left:60px;
+  top:400px;
+  left:900px;
 }
  .peri_tort
 {
@@ -173,7 +173,7 @@ a:hover {
 {
     position: absolute;
   top:530px;
-  left: 630px;
+  left: 600px;
 
 }
 
@@ -318,4 +318,12 @@ a:hover {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
