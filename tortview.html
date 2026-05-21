@@ -15,20 +15,16 @@
 </div>
 </div>
 
-<div class="pinz_tort">
-    <a href="pinzonview.html"><img src="./img/rsrc/pinz_3.png" alt="Pinzón" style="width: auto; height: 80px;"></a>
-</div>
-
 <div class="exit">
     <a href="juego-home.html"><img src="./img/rsrc/exit.png" alt="Exit to home" style="width: auto; height: 200px;"></a>
 </div>
 
 <div class="arrow_left">
-    <a href="juego_4.html"><img src="./img/rsrc/arrow_left.png" alt="left" style="width: 200px; height: auto;"></a>
+    <a href="juego_2.html"><img src="./img/rsrc/arrow_left.png" alt="left" style="width: 200px; height: auto;"></a>
 </div>
 
 <div class="arrow_right">
-    <a href="juego_3.html"><img src="./img/rsrc/arrow_right.png" alt="right" style="width: 200px; height: auto;"></a>
+    <a href="juego_1.html"><img src="./img/rsrc/arrow_right.png" alt="right" style="width: 200px; height: auto;"></a>
 </div>
 
    <style>
@@ -49,6 +45,29 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 </script>
+
+ <div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()">Info</button>
+    <span class="popuptext_info" id="myPopupInfo">
+    <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>   
+     <h1 style="font-size: 130px;top: 100px; left: 100px;">Tortolillo</h1> <h2 style="top: 350px; left: 100px;">Bombus sonorus</h2>
+Se distribuye desde el noroeste de México, raramente en el extremo suroeste de Estados Unidos, 
+hacia el sur por la vertiente del Pacífico y tierras altas interiores, por Guatemala, El Salvador, 
+hasta el centro de Honduras. <br> <br>
+Se alimenta principalmente de néctar y prefiere las flores rojas. Come también áfidos, insectos y arañas.
+<br>
+<br>
+Se observó en Miguel Ángel de Quevedo ántes de mediodía comiendo de una jacaranda.
+<img src="./img/rsrc/bee_1.png" alt="Fotografía de un abejorro" style="width: auto; height: 700px; top: 100px; left: -75px; position:absolute;"></img>
+</span>
+</div>
+<script>
+function myFunctionInfo() {
+  var popup = document.getElementById("myPopupInfo");
+  popup.classList.toggle("show");
+}
+</script>
+<script src="./js/popup.js"></script>
 
 </body>
 

@@ -272,7 +272,7 @@ a:hover {
   color: #fff;
   position: relative;
   font-family: 'Times New Roman';
-  font: size 20px;
+  font: size 22px;
   display: inline-block;
 }
 
@@ -280,7 +280,7 @@ a:hover {
 .popup_info .popuptext_info {
   visibility: hidden;
   width: 300px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-align: left;
   border-radius: 1px;
