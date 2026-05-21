@@ -24,9 +24,15 @@
 </div>
 </div>
 
-<div class="popup" onclick="myFunction()" style="top: 450px; left: 450px;">?
-  <span class="popuptext" id="myPopup">Jacaranda</span>
+<div class="popup" onclick="myFunction('jacaranda-popup')" style="top: 450px; left: 450px;">?
+  <span class="popuptext" id="jacaranda-popup">Jacaranda</span>
 </div>
+<script>
+function myFunction(_selector) {
+  var popup = document.getElementById(_selector);
+  popup.classList.toggle("show");
+}
+</script>
 
  <style>
 body {
