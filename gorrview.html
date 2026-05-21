@@ -14,8 +14,10 @@
     <a href="tortview.html"><img src="./img/rsrc/arrow_down.png" alt="back" style="width: auto; height: 200px;"></a>
 </div>
 
-<div class="tort_pinz">
-    <a href="tortview.html"><img src="./img/rsrc/tort_3.png" alt="Tortolillo visto desde arriba" style="width: auto; height: 150px;"></a>
+<div class="pinz_gorr">
+<div class="grow">  
+    <a href="pinzonview.html"><img src="./img/rsrc/pinz_3.png" alt="Pinzón visto desde abajo" style="width: auto; height: 70px;"></a>
+</div>
 </div>
 
 
@@ -25,10 +27,37 @@
 
    <style>
 body {
-  background-image: url('img/mcrft/vista_aerea_1.png');
+  background-image: url('img/mckp/vista_aerea_2.png');
+  background-size: cover;
 }
 body, a, a:hover{ cursor:url('img/rsrc/cursors/foot.cur'), auto }
 </style>
+
+ <div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()">Info</button>
+    <span class="popuptext_info" id="myPopupInfo">
+      <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>
+
+    <h1 style="font-size: 130px; top: 50px; left: 100px;">Gorrión</h1> 
+    <h2 style="top: 350px; left: 100px;">Passer domesticus</h2>
+El pájaro más común en Miguel Ángel de Quevedo y en toda la Ciudad de México. <br>
+Se encuentra principalmenteen árboles altos, pero también baja a arbustos <br>
+e incluso al suelo a buscar semillas e insectos. Un pájaro social y adaptable, <br>
+se la pasa cantando a lo largo del día.
+<br>
+<br>
+Se observó principalmente en laureles de la india, jacarandas y eucaliptos,<br>
+los árboles más altos de Miguel Ángel de Quevedo.
+<img src="./img/rsrc/gorr_1.png" alt="Fotografía de un gorrión doméstico" style="width: auto; height: 500px; top: 30%; left: 10%; position:absolute;"></img>
+</span>
+</div>
+<script>
+function myFunctionInfo() {
+  var popup = document.getElementById("myPopupInfo");
+  popup.classList.toggle("show");
+}
+</script>
+<script src="./js/popup.js"></script>
 </body>
 
 
