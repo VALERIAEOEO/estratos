@@ -73,15 +73,6 @@ a:hover {
     z-index: 99;
     pointer-events: none;
 }
-.roadBoxTop {
-    position: absolute;
-    top: 200px;
-    left: 640px;
-    width: 100px;
-    height: 200px;
-    background-color: white;
-    opacity: 0;
-}
 
 .exit {
     position: absolute;
