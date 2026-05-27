@@ -42,26 +42,6 @@ a:hover {
 }
 
 
- 
- .parent {  
-    background-color: transparent;  
-    height: 1000px;  
-    width: 50%;  
-   }  
-  
-  .child {  
-    background-color: transparent;  
-    height: 100px;  
-    width: 100px;  
-    border-radius: 20%;  
-    transition-duration: 1s;  
-    transition-property: transform;  
-   }  
-  
-  .parent:hover .child {  
-    transform: translateX(-600%);  
-    background-color: transparent;   
-   }  
 
 .roadBox {
     position: absolute;
