@@ -33,6 +33,47 @@ h2 {
     z-index: 1;
     
 }
+
+p
+{
+   color: #fff;
+  position: fixed;
+  top:75%;
+  left: 35.5%;
+  font-family: Roca, serif;  
+  font: size 22px;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+}
+
+p
+{
+   color: #fff;
+  position: fixed;
+  top:15%;
+  left: 35.5%;
+  font-family: Roca, serif;  
+  font: size 22px;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+}
+
+p-2
+{
+   color: rgb(255, 255, 255);
+  position: fixed;
+  text-shadow: 1px 1px 4px black;
+  top:15%;
+  left: 35.5%;
+  font-family: Roca, serif;  
+  font: size 22px;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+}
+
 a {
     color: blue; /* Change the color of the hyperlink */
 }
