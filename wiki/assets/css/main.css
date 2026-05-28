@@ -1235,7 +1235,7 @@ input, select, textarea {
 	}
 	
 	.poptrox-popup .closer:before {
-		content: '✕';
+		content: 'X';
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background-image: url("../img/rsrc/arrow_up.png");
