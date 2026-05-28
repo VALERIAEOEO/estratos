@@ -5,51 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego_Tortolillo_View
     </title>
-    <link rel="stylesheet" href="css/juego.css">
+    <link rel="stylesheet" href="../css/ingame.css">
 </head>
 <body> 
 
 <div class="peri_tort">
     <div class="grow">
         <div class="bright">
-    <a href="periview.html"><img src="./img/rsrc/peri_1.png" alt="Periquito de nanche" style="width: auto; height: 50px;"></a>
+    <a href="periview.html"><img src="../img/rsrc/peri_1.png" alt="Periquito de nanche" style="width: auto; height: 50px;"></a>
 </div>
 </div>
 </div>
 
 <div class="exit">
-<a href="index.html"><h2 style="top:10px; left: 50px;">X</h2></a>
+<a href="../juego_home.html"><h2 style="top:10px; left: 50px;">X</h2></a>
 </div>
 
 <div class="arrow_left">
   <div class="bright">
-    <a href="juego_2.html"><img src="./img/rsrc/arrow_left.png" alt="left" style="width: 200px; height: auto;"></a>
+    <a href="juego_2.html"><img src="../img/rsrc/arrow_left.png" alt="left" style="width: 200px; height: auto;"></a>
 </div>
 </div>
 
 <div class="arrow_right">
   <div class="bright">
 
-    <a href="juego_1.html"><img src="./img/rsrc/arrow_right.png" alt="right" style="width: 200px; height: auto;"></a>
+    <a href="juego_1.html"><img src="../img/rsrc/arrow_right.png" alt="right" style="width: 200px; height: auto;"></a>
 </div>
 </div>
-
-   <style>
-body {
-  background-image: url('img/mckp/tort_vision.png');
-  background-size: cover;
-}
-body, a, a:hover{ cursor:url('img/rsrc/cursors/foot.cur'), auto }
-</style>
 
 <div class="popup" onclick="myFunction('euc-popup')" style="top: 200px; left: 940px;">
   <div class="grow">
     <div class="bright">
-  <img src="./img/rsrc/question_mark.svg" alt="Question mark" style="width:auto;height:42px;vertical-align:middle;">
+  <img src="../img/rsrc/question_mark.svg" alt="Question mark" style="width:auto;height:42px;vertical-align:middle;">
   <span class="popuptext" id="euc-popup">EUCALIPTO</span>
 </div>
 </div>
 </div>
+
+ <style>
+body {
+  background-image: url('../img/mckp/tort_vision.png');
+  background-size: cover;
+  background-position: center;
+}
+body, a, a:hover{ cursor:url('../img/rsrc/cursors/foot.cur'), auto }
+</style>
 
 <script>
 function myFunction(_selector) {
@@ -71,7 +72,7 @@ Un pájaro callado. Se mueve entre <br>árboles, pero
 se observó principalmente en el suelo, buscando semillas <br>
 e insectos que comer.<br><br>
 Se le observó sentado en pareja, en las ramas bajas de un Ahuexotl.
-<img src="./img/rsrc/tort_1.png" alt="Fotografía de un tortolito" style="width: auto; height: 700px; top: 80px; left: -200px; position:absolute;"></img>
+<img src="../img/rsrc/tort_1.png" alt="Fotografía de un tortolito" style="width: auto; height: 700px; top: 80px; left: -200px; position:absolute;"></img>
 </span>
 </div>
 <script>
@@ -80,7 +81,7 @@ function myFunctionInfo() {
   popup.classList.toggle("show");
 }
 </script>
-<script src="./js/popup.js"></script>
+<script src="../js/popup.js"></script>
 
 </body>
 
