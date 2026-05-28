@@ -174,7 +174,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242629;
+		background: #015ce4;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -202,8 +202,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #a0a0a1;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #ffffff;
+		font-family: "Roca", serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -328,8 +328,8 @@ input, select, textarea {
 	}
 
 	code {
-		background: #34363b;
-		border: solid 1px #36383c;
+		background: #0f4ce4;
+		border: solid 1px #1a5ada;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -352,7 +352,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #36383c;
+		border-bottom: solid 1px #1a63f3;
 		margin: 2em 0;
 	}
 
@@ -652,16 +652,6 @@ input, select, textarea {
 		select::-ms-expand {
 			display: none;
 		}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	input[type="tel"],
-	input[type="search"],
-	input[type="url"],
-	select {
-		height: 2.75em;
-	}
 
 	textarea {
 		padding: 0.75em 1em;
@@ -1229,26 +1219,26 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/close.svg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: 3em;
-			height: 5em;
-			opacity: 0;
-			position: absolute;
-			right: 0;
-			top: 0;
-			width: 5em;
-			z-index: 2;
-		}
-
-		.poptrox-popup .nav-previous,
-		.poptrox-popup .nav-next {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
+			font: Estratos, sans-serif;
+		color: white;
+		font-size: 2.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 5em;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 5em;
+		z-index: 2;
+	}
+	
+	.poptrox-popup .closer:before {
+		content: '✕';
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/arrow.svg");
+			background-image: url("../img/rsrc/arrow_up.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 5em;
