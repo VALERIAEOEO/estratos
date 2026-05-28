@@ -5,8 +5,8 @@
 
 body{
   width: 100%;
-  height: 100%;  
-  overflow: hidden;
+  height: 600px;  
+  overflow: visible;
   cursor: url('../img/rsrc/cursors/blue.cur'), auto;
 }
 
@@ -17,7 +17,7 @@ h1 {
     font-size:150px;
     color: goldenrod;
     position:fixed;
-    text-align: center;
+    text-align: right;
     line-height: 1em;
     text-decoration: none;
     display: block;
@@ -26,10 +26,10 @@ h1 {
 h2 {
     font-family: 'Roca', sans-serif;
     font-weight: 100;
-    font-size:50px;
+    font-size:24px;
     color: rgb(255, 255, 255);
-    position:fixed;
-    text-align: center;
+    position: relative;
+    text-align: left;
     z-index: 1;
     
 }
