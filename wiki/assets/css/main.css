@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Estratos";
-    src: url(../font/Estratos-Regular.woff2) format('woff2');
+    src: url(./Estratos-Regular.woff2) format('woff2');
 }
+
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
