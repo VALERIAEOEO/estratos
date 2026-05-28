@@ -9,7 +9,7 @@
 </head>
 <body> 
 
-<a href="juego_2.html">
+<a href="./juego_2.html">
  <div class="roadBox"> 
 </div> 
 </a>
@@ -18,8 +18,10 @@
 <div class="pinz_gorr">
 <div class="grow">
   <div class="bright">
-    <a href="gorrview.html"><img src="../img/rsrc/gorr_1.png" alt="Gorrión" style="width: auto; height: 80px;"></a>
+    <a href="./gorrview.html"><img src="../img/rsrc/gorr_3.png" alt="Gorrión" style="width: auto; height: 80px;"></a>
 </div>
+</div>
+</div>v
 
 <div class="exit">
 <a href="../juego_home.html"><h2 style="top:10px; left: 50px;">X</h2></a>
@@ -27,10 +29,39 @@
 
    <style>
 body {
-  background-image: url('../img/mckp/pinz_view_1.png');
+  background-image: url('../img/mckp/pinz_vision.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 body, a, a:hover{ cursor:url('../img/rsrc/cursors/foot.cur'), auto }
 </style>
+
+<div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()">Info</button>
+    <span class="popuptext_info" id="myPopupInfo">
+      <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>
+
+    <h1 style="font-size: 130px; top: 200px; left: 100px;">PINZÓN</h1> 
+    <h2 style="top: 350px; left: 100px;">HAEMORHOUS MEXICANUS</h2>
+Un pájaro común, pero difícil de ver. <br>
+Se posta principalmente al tope de árboles<br>
+muy altos, en Miguel Ángel de Quevedo, <br>
+principalmente eucaliptos, jacarandas, <br>
+y laureles de la India. <br>
+<br>
+Se puede escuchar su canto, aunque <br>
+verlo no sea fácil. <br>
+<img src="../img/rsrc/pinz_3.png" alt="Fotografía de un pinzón" style="width: auto; height: 600px; top: 40%; right: -10%; position:fixed;"></img>
+</span>
+</div>
+<script>
+function myFunctionInfo() {
+  var popup = document.getElementById("myPopupInfo");
+  popup.classList.toggle("show");
+}
+</script>
+<script src="../js/popup.js"></script>
 </body>
 
 
