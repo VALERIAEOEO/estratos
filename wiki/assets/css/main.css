@@ -220,10 +220,10 @@ input, select, textarea {
 		}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-webkit-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		-ms-transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
+		transition: color 0.1s ease-in-out, border-bottom-color 0.1s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #34a58e;
 		text-decoration: none;
@@ -247,7 +247,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 300;
 		letter-spacing: 0.1em;
@@ -258,7 +258,18 @@ input, select, textarea {
 
 	
 	h1 {
-		font-size: 2em;
+		font-family: 'Estratos', sans-serif;
+		font-size: 3em;
+		color: #ffffff;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		line-height: 1;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+		position: relative;
+		bottom: 0em;
+		left: 8em;
 	}
 
 	h2 {
@@ -321,7 +332,7 @@ input, select, textarea {
 		border-left: 4px #36383c;
 		font-style: italic;
 		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		padding: 0.5em 0 0.5em 0em;
 	}
 
 	code {
@@ -330,7 +341,7 @@ input, select, textarea {
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.25em 0.25em;
 	}
 
 	pre {
@@ -426,7 +437,7 @@ input, select, textarea {
 		input[type="button"].icon,
 		button.icon,
 		.button.icon {
-			padding-left: 1.35em;
+			padding-left: 0.5em;
 		}
 
 			input[type="submit"].icon:before,
@@ -1488,8 +1499,11 @@ input, select, textarea {
 
 		#header h1 {
 			color: #a0a0a1;
+			font-size: 1.75em;
+			font-weight: 300;
+			font-family: "Estratos", sans-serif;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 2em;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
@@ -1551,7 +1565,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		body {
-			padding: 4em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 		#header {
@@ -1561,7 +1575,7 @@ input, select, textarea {
 			transform: translateY(0);
 			bottom: auto;
 			height: 4em;
-			padding: 0 1em;
+			padding: 0em;
 			top: 0;
 		}
 
@@ -1573,12 +1587,12 @@ input, select, textarea {
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 2em;
 			}
 
 			#header nav > ul > li a {
 				font-size: 0.9em;
-				padding: 0 1.15em;
+				padding: 0 1em;
 			}
 
 	}

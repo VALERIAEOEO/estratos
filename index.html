@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego_Home
-    </title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/estratos.css">
-    <cursor url('./img/rsrc/cursors/foot.cur'), auto;> </cursor>
 </head>
-<body> 
-<h1>ESTRATOS</h1>
-    <a href="juego/juego_home.html"><h2>juego</h2> <alt="Entrar al juego" style="width: 1500px; height: auto;"></a>
-    <a href="wiki/enciclo_wiki.html"><h2>enciclopedia</h2> <alt="Entrar al juego" style="width: 1500px; height: auto;"></a>
+
+<body class="hero-body">
+    <header>
+        <!-- Aquí va el header -->
+    </header>
+    <main>
+        <section class="hero-img" id="hero-title">
+            <h1>ESTRATOS</h1>
+        </section>
+        <section class="hero-img" id="hero-text">
+            <h3 style="margin: 1em auto 0; max-width: 900px; padding: 0 1em; text-align: center;">¿Cómo entendemos la corporalidad del territorio? <br>
+             Estratos es un ejercicio de imaginación, <br>
+            centrando al peatón, y definiendolo <br>
+             más allá de especie, podemos sintetizar <br>
+            lo que un cuerpo necesita, y cómo lo buscamos <br>
+            en nuestro trayecto. </h3>
+               
+            </section>
+
+        <section style="display: flex; justify-content: center; gap: 2em; margin-top: 5em;">
+            <div class="grow">
+            <a href="./juego/juego_home.html" title="Juego">
+                <img src="./img/path_1.png" alt="Juego">
+            </a>
+            </div>
+
+            <div class="grow">
+            <a href="./wiki/enciclo_wiki.html" title="Enciclopedia">
+                <img src="./img/path_2.png" alt="Información sobre árboles">
+            </a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <h2 style="text-align: center; margin: 1em 0;">CREADA POR PAU Y VALE</h2>
+    </footer>
+ <style>
+body {
+  background-image: url('./img/bg_2.png');
+  background-size: cover;
+}
+body, a, a:hover{ cursor:url('../juego/img/rsrc/cursors/foot.cur'), auto }
+</style>
 
 </body>
-
 </html>
