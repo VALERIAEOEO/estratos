@@ -150,8 +150,8 @@ a:hover {
  .gorr_pinz
  {
   position: absolute;
-  top:20px;
-  left:800px;
+  top:40px;
+  left:1100px;
  }
 
  .gorr_3
@@ -165,7 +165,7 @@ a:hover {
  {
   position: absolute;
   top: 40px;
-  left:1100px;
+  left:900px;
   z-index: 1;
  }
 
@@ -189,7 +189,6 @@ a:hover {
     position: absolute;
   top:530px;
   left: 600px;
-
 }
 
 .bee_4
