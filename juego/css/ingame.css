@@ -34,6 +34,17 @@ h2 {
     
 }
 
+h3 {
+    font-family: 'Estratos', sans-serif;
+    font-weight: 100;
+    font-size:50px;
+    color: goldenrod;
+    position:fixed;
+    text-align: center;
+    z-index: 1;
+    
+}
+
 p
 {
    color: #fff;
@@ -131,8 +142,8 @@ a:hover {
  .tort_1
  {
   position: absolute;
-  top:480px;
-  left:720px;
+  top:450px;
+  left:540px;
  }
 
  .tort_2
@@ -213,7 +224,7 @@ a:hover {
 {
   position: fixed;
   top:50px;
-  left:45%;
+  left:48%;
 
 }
 
@@ -221,7 +232,7 @@ a:hover {
 {
   position: fixed;
   top:400px;
-  left:45%;
+  left:48%;
 
 }
 

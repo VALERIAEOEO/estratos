@@ -15,7 +15,8 @@
 
 <div class="arrow_up">
   <div class="bright">
-    <a href="../html/juego_1.html"><img src="../img/rsrc/arrow_up.png" alt="Next" style="width: auto; height: 200px;"></a>
+    <a href="../html/juego_1.html"><img src="../img/rsrc/arrow_up.png" alt="Next" 
+      style="width: auto; height: 150px;"></a>
 </div>
 </div>  
 
@@ -31,10 +32,12 @@ body {
 body, a, a:hover{ cursor:url('../img/rsrc/cursors/foot.cur'), auto }
 </style>
 
- <div class="popup_info" style="top: 40px; left: 1200px;">
-    <button onclick="showPopupInfo()">Info</button>
+<div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()" style="background:none;border:none;padding:0;cursor:pointer;">
+      <img src="../img/rsrc/question_mark.svg" alt="Question mark" style="width:auto;height:60px;vertical-align:middle;">
+    </button>
     <span class="popuptext_info" id="myPopupInfo">
-    <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>   
+
      <h1 style="font-size: 130px;top: 150px; left: 100px;">ABEJORRO</h1> 
      <h2 style="top: 350px; left: 100px;">BOMBUS SONORUS</h2>
 Es cómo una abeja, pero más grande.<br>
@@ -45,9 +48,10 @@ Come también áfidos, insectos y arañas.
 <br>
 <br>
 Está buscando pólen dentro de flores de Jacaranda en el suelo del camellón.
-<img src="../img/rsrc/bee_2.png" alt="Fotografía de un abejorro" style="width: auto; height: 500px; top: 10px; left: 110px; position:absolute;"></img>
+<img src="../img/rsrc/bee_info.png" alt="Fotografía de un abejorro" style="width: auto; height: 200px; top: 60%; right: 5%; position: fixed;"></img>
 </span>
 </div>
+
 <script>
 function myFunctionInfo() {
   var popup = document.getElementById("myPopupInfo");
@@ -55,6 +59,7 @@ function myFunctionInfo() {
 }
 </script>
 <script src="../js/popup.js"></script>
+
 </body>
 
 

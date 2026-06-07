@@ -17,13 +17,15 @@
 
 <div class="arrow_down">
   <div class="bright">
-    <a href="juego_2.html"><img src="../img/rsrc/arrow_down.png" alt="back" style="width: auto; height: 200px;"></a>
+    <a href="juego_2.html"><img src="../img/rsrc/arrow_down.png" alt="back" 
+      style="width: auto; height: 150px;"></a>
 </div>
 </div>
 
 <div class="pinz_gorr">
 <div class="grow">  
-    <a href="pinzonview.html"><img src="../img/rsrc/pinz_3.png" alt="Pinzón visto desde abajo" style="width: auto; height: 70px;"></a>
+    <a href="pinzonview.html"><img src="../img/rsrc/pinz_1.png" alt="Pinzón visto desde abajo" 
+      style="width: auto; height: 70px;"></a>
 </div>
 </div>
 
@@ -40,10 +42,11 @@ body {
 body, a, a:hover{ cursor:url('../img/rsrc/cursors/foot.cur'), auto }
 </style>
 
- <div class="popup_info" style="top: 40px; left: 1200px;">
-    <button onclick="showPopupInfo()">Info</button>
+<div class="popup_info" style="top: 40px; left: 1200px;">
+    <button onclick="showPopupInfo()" style="background:none;border:none;padding:0;cursor:pointer;">
+      <img src="../img/rsrc/question_mark.svg" alt="Question mark" style="width:auto;height:60px;vertical-align:middle;">
+    </button>
     <span class="popuptext_info" id="myPopupInfo">
-      <button onclick="closePopupInfo()" style="position: absolute; top: -100px; right: -100px;">Cerrar</button>
 
     <h1 style="font-size: 130px; top: 200px; left: 100px;">GORRIÓN</h1> 
     <h2 style="top: 350px; left: 100px;">PASSER DOMESTICUS</h2>
@@ -56,9 +59,12 @@ de su canto cuando pasa el trolebús.
 <br>
 Se observó principalmente en laureles de la india, jacarandas y eucaliptos,<br>
 los árboles más altos de Miguel Ángel de Quevedo.
-<img src="../img/rsrc/gorr_1.png" alt="Fotografía de un gorrión doméstico" style="width: auto; height: 400px; top: 50%; left: -10%; position:absolute;"></img>
+<img src="../img/rsrc/gorr_info.png" alt="Fotografía de un gorrión doméstico" 
+style="width: auto; height: 200px; top: 60%; right: 5%; position: fixed;"></img>
 </span>
 </div>
+
+
 <script>
 function myFunctionInfo() {
   var popup = document.getElementById("myPopupInfo");
