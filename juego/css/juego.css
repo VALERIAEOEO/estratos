@@ -7,7 +7,7 @@ body{
   width: 100%;
   height: 100%;  
   overflow: hidden;
-  cursor: url('../img/rsrc/cursors/blue.cur'), auto;
+  cursor: url('../img/rsrc/cursors/foot.cur'), auto;
 }
 
 
@@ -26,10 +26,12 @@ h1 {
 h2 {
     font-family: 'Estratos', sans-serif;
     font-weight: 100;
-    font-size:50px;
+    font-size:30px;
     color: rgb(255, 255, 255);
     position:fixed;
     text-align: center;
+    top:75%;
+    left: 31.5%;
     z-index: 1;
     
 }
@@ -38,7 +40,7 @@ p
 {
    color: #fff;
   position: fixed;
-  top:65%;
+  top:60%;
   left: 35.5%;
   font-family: Roca, serif;  
   font: size 22px;
@@ -69,7 +71,20 @@ a:hover {
     color: rgb(255, 217, 0); /* Change the color when the user hovers over it */
 }
 
+.grow {
+  transition: all 0.2s ease-in-out;
+}
 
+.grow:hover {
+  transform: scale(1.5);
+}
+.bright {
+  transition: all 0.2s ease-in-out;
+}
+
+.bright:hover {
+  filter: brightness(1.2);
+}
 
 .exit {
     position: absolute;
