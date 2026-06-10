@@ -14,7 +14,8 @@ body{
 h1 {
     font-family: 'Estratos', sans-serif;
     font-weight: 100;
-    font-size:150px;
+    text-shadow: 1px 1px 4px black;
+    font-size:180px;
     color: goldenrod;
     position:fixed;
     text-align: center;
@@ -26,30 +27,30 @@ h1 {
 h2 {
     font-family: 'Estratos', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color: rgb(255, 255, 255);
+    font-size:35px;
+    color: goldenrod;
+    text-shadow: 1px 1px 4px black;
     position:fixed;
     text-align: center;
-    top:75%;
-    left: 31.5%;
+    top:80%;
+    left: 29.7%;
     z-index: 1;
-    
+}
+    h3 {
+    font-family: 'Roca', serif;
+    font-weight: 100;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 4px black;
+    display: inline-block;
+    position:fixed;
+    text-align: center;
+    top: 60%;
+    left: 37%;
+    z-index: 2;
 }
 
 p
-{
-   color: #fff;
-  position: fixed;
-  top:60%;
-  left: 35.5%;
-  font-family: Roca, serif;  
-  font: size 22px;
-  display: inline-block;
-  text-align: center;
-  z-index: 2;
-}
-
-p-2
 {
    color: rgb(255, 255, 255);
   position: fixed;
