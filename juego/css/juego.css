@@ -64,13 +64,6 @@ p
   z-index: 2;
 }
 
-a {
-    color: blue; /* Change the color of the hyperlink */
-}
-
-a:hover {
-    color: rgb(255, 217, 0); /* Change the color when the user hovers over it */
-}
 
 .grow {
   transition: all 0.2s ease-in-out;
