@@ -64,6 +64,9 @@ p
   z-index: 2;
 }
 
+.noHover{
+    pointer-events: none;
+}
 
 .grow {
   transition: all 0.2s ease-in-out;
@@ -197,21 +200,6 @@ p
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
-
-.grow {
-  transition: all 0.2s ease-in-out;
-}
-
-.grow:hover {
-  transform: scale(1.5);
-}
-.bright {
-  transition: all 0.2s ease-in-out;
-}
-
-.bright:hover {
-  filter: brightness(1.2);
 }
 
 
